@@ -2,7 +2,7 @@
 declare(strict_types=1);
 require dirname(__DIR__) . '/src/Whovian.php';
 
-class WhovianTest extends PHPUnit_Framework_TestCase
+class WhovianTest extends PHPUnit\Framework\TestCase
 {
     public function testSetsDoctorWithConstructor()
     {
