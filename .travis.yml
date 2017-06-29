@@ -1,7 +1,7 @@
 language: php
 php:
   - 7.0
-  - hvvm
+  - 7.1
 install:
   - composer install --no-dev --quiet
 script: phpunit -c phpunit.xml --coverage-text
